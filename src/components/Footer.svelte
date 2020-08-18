@@ -14,7 +14,7 @@
 <div class="Footer">
     <div class="Footer-container">
         <div class="Footer-copy">
-           <p>© {actualYear} PUGSTAGRAM FROM PLATZI</p>
+           <p>© {actualYear} PUGSTAGRAM FROM EDGARDO MARCANO</p>
         </div>
     </div>
 </div>
