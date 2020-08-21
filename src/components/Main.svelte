@@ -12,6 +12,19 @@
         grid-gap: 2em;
         padding: 2em 0;
     }
+
+    @media only screen and (max-width: 767px) {
+        .Main-container {
+            grid-template-columns: auto;
+            margin: auto 1em;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .Main-container {
+            margin: auto .2em;
+        }
+    }
 </style>
 
 <div class="Main">

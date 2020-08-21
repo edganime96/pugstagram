@@ -17,6 +17,12 @@
     .Sidebar-container {
         position: fixed;
     }
+
+    @media only screen and (max-width: 767px) {
+        .Sidebar {
+            display: none;
+        }
+    }
 </style>
 
 <div class="Sidebar">
