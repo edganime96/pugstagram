@@ -8,7 +8,7 @@
       height: 180px;
       /* position: fixed; */
       position: absolute;
-      top: 500px;
+      top: 400px;
       /* top: 150px; */
       left: 30%;
       z-index: 9;
@@ -57,6 +57,13 @@
 
     .Share-content-twitter i {
       color: #00acee;
+    }
+
+    @media only screen and (max-width: 480px) {
+      .Share {
+        left: auto;
+        top: 190px;
+      }
     }
   </style>
 
