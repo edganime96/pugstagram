@@ -6,6 +6,7 @@
     .Modal-overlay {
         /* background-color: rgba(0, 0, 0, 0.7); */
         backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: (15px);
         position: fixed;
         width: 100%;
         height: 100%;

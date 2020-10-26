@@ -1,3 +1,8 @@
+<script>
+
+import Profile from "./Profile.svelte";
+
+</script>
 <style>
     .Stories {
         border: 1px solid rgba(219, 219, 219, 1);
@@ -11,6 +16,7 @@
         width: 32px;
         height: 32px;
         border-radius: 50%;
+        object-fit: cover;
     }
 
     .Stories-item {
@@ -69,13 +75,29 @@
         <div class="Stories-items">
             <div class="Stories-item">
                 <div class="Stories-item-box">
-                    <img src="../assets/profile.jpg" alt="">
-                    <!-- <img src="https://scontent.flim2-1.fna.fbcdn.net/v/t1.0-9/34158960_2127678190618493_3331062590510989312_n.jpg?_nc_cat=109&_nc_sid=174925&_nc_eui2=AeGfKtL1IbW0goI7x5INw7OBn7CL35nns7qfsIvfmeezupTevVkalF33EPxnXH60xegYCYTiGYMFwwCbPb9uabKN&_nc_ohc=U4M0FDZ2GQ0AX8_POKc&_nc_ht=scontent.flim2-1.fna&oh=f04b0c649471a8bcc7545f01a8a27aaf&oe=5F6651C7" alt=""> -->
-                    <!-- <img src="https://arepa.s3.amazonaws.com/oscar.png" alt=""> -->
+                    <img src="https://arepa.s3.amazonaws.com/oscar.png" alt="">
                 </div>
                 <h2>
-                    edganime96
-                    <span>Hace 10 horas</span>
+                    gndx
+                    <span>Hace 2 horas</span>
+                </h2>
+            </div>
+            <div class="Stories-item">
+                <div class="Stories-item-box">
+                    <img src="https://scontent.flim2-2.fna.fbcdn.net/v/t1.0-9/82793928_1051985058502808_8714249976546328576_n.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_ohc=7rK7NW9LCpwAX-QYJEW&_nc_ht=scontent.flim2-2.fna&oh=6fdf9c41d6b4acb1a919ed3a9b4a02dd&oe=5FBD9D1B" alt="">
+                </div>
+                <h2>                    
+                    eliexanders
+                    <span>Hace 5 horas</span>
+                </h2>
+            </div>
+            <div class="Stories-item">
+                <div class="Stories-item-box">
+                    <img src="https://scontent.flim2-2.fna.fbcdn.net/v/t1.0-9/121063940_975928979554776_5386043388407911916_n.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_ohc=nPXruJ4UTokAX8k2Aac&_nc_ht=scontent.flim2-2.fna&oh=f6dfd87e7e114135f1c08d1c9ab3ed66&oe=5FBC3B1B" alt="">
+                </div>
+                <h2>                    
+                    orianacarolinak
+                    <span>Hace 6 horas</span>
                 </h2>
             </div>
         </div>
